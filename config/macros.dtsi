@@ -2,7 +2,7 @@ macro_chatgpt: macro_chatgpt{
 compatible = "zmk,behavior-macro";
 label = "macro_chatgpt";
 #binding-cells = <0>;
-bindings = <&mt LALT SPACE>;
+bindings = <&kp G>, <&kp M>, <&kp A>, <&kp I>, <&kp L>, <&kp DOT>, <&kp C>, <&kp O>, <&kp M>, <&kp ENTER>;
 };
 macro_volumup: macro_volumup{
 compatible = "zmk,behavior-macro";
